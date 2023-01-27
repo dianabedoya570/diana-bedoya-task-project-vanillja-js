@@ -1,3 +1,6 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body{
     width: 100vw;
     height: 100vh;
@@ -52,5 +55,37 @@ input{
     border-radius: 3px;
     width: 180px;
     height: 40px;
+
+}
+.allTasks{
+    display: flex;
+    flex-direction: column-reverse;
+}
+p{
+    align-self: center;
+    align-items: center;
+}
+.taskConteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: solid  #d7d7d7;
+    
+}
+.mycheck {
+    cursor: pointer;
+    background-color: #fff;
+    width: 38px;
+    height: 38px;
+    appearance:none;
+    border: 2px solid#00b3be;
+    border-radius: 5px;
+    margin: 10px;
+}
+.textTask{
+    color:#076d75;
+    margin: 5px;
+    font-size: large;
+
 
 }
