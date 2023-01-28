@@ -33,12 +33,18 @@ main{
  
    
 }
-input{
+.newTaskTxt{
     border: none;
     padding: 3px;
     width: 245px;
     height: 40px;
+    outline: none;
 }
+
+.newTaskTxt:focus{
+    background-color:#f7f6f6;
+}
+
 .btnAdd{
     background-color:#e64b6e;
     border: none;
@@ -46,6 +52,7 @@ input{
     border-radius: 3px;
     width: 60px;
     height: 40px;
+    
 
 }
 .btnDelete{
@@ -55,13 +62,15 @@ input{
     border-radius: 3px;
     width: 180px;
     height: 40px;
+    align-self: center;
+    margin:20px;
 
 }
 .allTasks{
     display: flex;
     flex-direction: column-reverse;
 }
-p{
+.noTask{
     align-self: center;
     align-items: center;
 }
@@ -82,10 +91,20 @@ p{
     border-radius: 5px;
     margin: 10px;
 }
+
+.mycheck:checked{
+    background:url("../img/selected.PNG") no-repeat 0 0;
+    text-decoration: #d7d7d7;
+    border:none;
+}
+
 .textTask{
     color:#076d75;
     margin: 5px;
     font-size: large;
-
+}
+.textTaskDone{
+    color:#d7d7d7;
+    text-decoration: line-through #00b3be;
 
 }
