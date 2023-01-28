@@ -4,8 +4,17 @@
 
 ## Desarrollo
 
-Aqui el maker debe escribir las instrucciones o pasos clonar el repositorio y cambiarse de rama a la de `develop`
+1. Se crea el repositorio en Git, con las ramas main, que contiene el readme y develop, en la cual se realizar el proyecto
+2. Se sicroniza con el equipo
+3. se realiza la construccion del HTML y el CSS
+4. Se programa el JS, para los requisitos planteados en la practica
+5.  Se realiza el mearge con la rama main
 
 ## Dificultades
 
-El maker debe listar cuales fueron las dificultades que tuvo al desarrollar el ejercicio
+Fue necesario estudiar metodos de manipulacion del DOM como:
+document.createElement()
+document.createAttribute()
+setAttributeNode()
+document.querySelector()
+document.querySelectorAll()
